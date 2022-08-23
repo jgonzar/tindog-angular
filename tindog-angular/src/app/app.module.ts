@@ -12,6 +12,7 @@ import { PressComponent } from './components/press/press.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { CtaComponent } from './components/cta/cta.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BackToTopComponent } from './components/back-to-top/back-to-top.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
     PressComponent,
     PricingComponent,
     CtaComponent,
-    FooterComponent
+    FooterComponent,
+    BackToTopComponent
   ],
   imports: [
     BrowserModule,
