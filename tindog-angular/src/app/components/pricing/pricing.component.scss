@@ -1,0 +1,37 @@
+#pricing{
+  padding:80px;
+  text-align: center;
+  p{
+    font-size:1.8rem;
+  }
+  .pricing-heading{
+    font-weight: bold;
+    font-size:5.5rem;
+  }
+  .card-heading h3{
+    font-weight: bold;
+    font-size: 2.6rem;
+  }
+  .pricing-col{
+    padding:3% 2%;
+    text-align: center;
+  }
+  .card{
+    padding:5%;
+    .card-body {
+      h2{
+        font-size:5rem;
+        font-weight: bold;
+      }
+      button{
+      width:100%;
+      margin:0 auto;
+      font-size:2rem;
+      font-weight:bold;
+      }
+    }
+  }
+  
+}
+
+
