@@ -1,5 +1,5 @@
 #pricing{
-  padding:80px;
+  padding:8rem;
   text-align: center;
   p{
     font-size:1.8rem;
@@ -31,7 +31,24 @@
       }
     }
   }
-  
 }
 
-
+@media(max-width:32em){
+  #pricing{
+    padding:4rem;
+    p{
+      font-size:1.6rem;
+    }
+    .pricing-heading{
+      font-size:4rem;
+    }
+    .card{
+      .card-body {
+        h2{
+          font-size:3.5rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

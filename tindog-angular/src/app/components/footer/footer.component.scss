@@ -1,0 +1,28 @@
+#footer{
+    text-align: center;
+    padding:7% 10%;
+    p{
+      margin-top:20px;
+      font-size:1.4rem;
+    }
+    fa-icon{
+      font-size:40px;
+      margin:0 20px 20px 20px;
+      transition:0.3s;
+      opacity:0.6;
+  }
+  fa-icon:hover{
+      opacity: 1;
+      cursor: pointer;
+  }
+}
+
+@media (max-width:32em){
+  #footer{
+    fa-icon{
+      font-size:20px;
+      margin:0 10px 10px 10px;
+
+   }
+  }
+}

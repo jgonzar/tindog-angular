@@ -37,6 +37,9 @@
     }
     //nav
     nav{
+      a{
+        color:#FFF;
+      }
       margin-bottom:30px;
       .navbar-brand{
         font-size:4.5rem;
@@ -45,11 +48,54 @@
       .nav-link{
         font-size:1.8rem;
         margin:0 22px;
+        color:#FFF;
+        opacity:0.6;
+      }
+      .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active{
+        color:#FFF;
+        opacity:1;
       }
     }
   }
 }
-
-
-
-
+@media(min-width:63em){
+  #title{
+    background-color:#ff4c68;
+    .container-fluid{
+      .phone-img{
+        position: absolute;
+        width:20%;
+        transform:rotate(15deg);
+        margin:10px 0 0 80px;
+      }
+    }
+  }
+}
+@media(max-width:48em){
+   #title{
+    text-align: center;
+  }
+  #title .container-fluid .phone-img{
+    position:static;
+    width:60%;
+    margin:40px auto 0;
+    transform:rotate(0);
+  }
+}
+@media(max-width:32em){
+  #title{
+    .container-fluid{
+    padding:3% 10% 7%;
+      .title-heading{
+        font-weight: bold;
+        font-size:4rem;
+        line-height:1.5;
+        color:white;
+        text-transform: capitalize;
+      }
+      .row .title-btn{
+        font-size:1.4rem;
+      }
+    }
+  }
+}

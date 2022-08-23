@@ -7,7 +7,6 @@
   fa-icon{
     color:#fd9644;
     line-height:1.5;
-
   }
   fa-icon:hover{
     color:#ff4c68;
@@ -15,13 +14,25 @@
   .feature{
     text-align: center;
     padding:4.5%;
-  }
-  .feature p{
-    font-size:1.8rem;
-  }
-  .features-heading{
-    font-size:3rem;
+    p{
+      font-size:1.8rem;
+    }
+    .features-heading{
+      font-size:3rem;
+    }
   }
 }
+
+@media(max-width:32em){
+  #features{
+    .feature{
+      .features-heading{
+        font-size:2.6rem;
+      }
+    }
+  }
+}
+
+
 
 

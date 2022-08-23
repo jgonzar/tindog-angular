@@ -20,3 +20,16 @@
   }
 }
 
+@media(max-width:32em){
+  #testimonials{
+    .testimonial-text{
+      font-weight:600;
+      font-size:4rem;
+    }
+    .picsum-img-wrapper{
+      em{
+        font-size:1.4rem;
+      }
+    }
+  }
+}
