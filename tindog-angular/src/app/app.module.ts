@@ -10,6 +10,8 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PressComponent } from './components/press/press.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { CtaComponent } from './components/cta/cta.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PricingComponent } from './components/pricing/pricing.component';
     FeaturesComponent,
     TestimonialsComponent,
     PressComponent,
-    PricingComponent
+    PricingComponent,
+    CtaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

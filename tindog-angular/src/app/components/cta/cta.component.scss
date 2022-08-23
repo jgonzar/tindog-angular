@@ -1,0 +1,20 @@
+#cta{
+    background:#ff4c68;
+    padding:7% 15% 12%;
+    text-align: center;
+    button{
+        width:30%;
+        padding:1% 2%;
+        font-size:2rem;
+        font-weight:300;
+    }
+    button:last-of-type{
+        margin-left:20px;
+    }
+    h3{
+        font-weight:900;
+        color:white;
+        font-size:60px;
+        margin-bottom:60px;
+    }
+}
