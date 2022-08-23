@@ -1,0 +1,23 @@
+{
+  "name": "tindog-angular",
+  "version": "1.0.0",
+  "description": "This is my tindog landing page built with angular. A fictional tinder-esque app for dogs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgonzar/tindog-angular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgonzar/tindog-angular/issues"
+  },
+  "homepage": "https://github.com/jgonzar/tindog-angular#readme",
+  "dependencies": {
+    "@angular/cli": "^14.1.3"
+  }
+}

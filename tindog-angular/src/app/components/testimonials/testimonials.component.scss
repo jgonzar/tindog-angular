@@ -1,0 +1,22 @@
+#testimonials{
+  text-align: center;
+  /* background:#ef8172;*/
+  background:#fd943f;
+  color:white;
+  .testimonial-text{
+    font-weight: bold;
+    font-size:5.5rem;
+  }
+  .testimonial-img{
+    width:10%;
+    border-radius: 50%;
+    margin:20px;
+  }
+  .picsum-img-wrapper{
+    padding:7% 15%;
+    em{
+      font-size:1.6rem;
+    }
+  }
+}
+

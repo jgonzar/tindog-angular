@@ -1,0 +1,21 @@
+<section id="testimonials">
+
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+        <img [src]="images[0]" class="testimonial-img" alt="dog-profile">
+        <em>Pebbles, New York</em>
+      </div>
+    </ng-template>
+
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+        <img [src]="images[1]" class="testimonial-img" alt="dog-profile">
+        <em>Beverly, Illinois</em>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+</section>
